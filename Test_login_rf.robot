@@ -198,46 +198,45 @@ Click on the right leg
 Type in club
     Input Text
 Type in level
-    Input Text
+    Input Text   xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[10]/div/div/input
 Type in main position
-    Input Text
+    Input Text  xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[11]/div/div/input
 Type in second position
-    Input Text
+    Input Text  xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[12]/div/div/input
 Click on the ditrict
-    Click element
+    Click element  xpath=//*[@id='mui-component-select-district']
 Click on the lower silesia
-    Click element
+    Click element    xpath=//*[@id='menu-district']/div[3]/ul/li[1]
 Type in achievements
-    Input Text
+    Input Text  xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[14]/div/div/input
 Type in laczy nas pilka
-    Input Text
+    Input Text  xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[16]/div/div/input
 Type in minut
-    Input Text
+    Input Text  xpatx=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[17]/div/div/input
 Type in facebook
-    Input Text
+    Input Text  xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[18]/div/div/input
 Click on the submit button
-    Click element
+    Click element    xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[3]/button[1]/span[1]
 Click on the main page button
-    Click element
+    Click element  xpath=//*[@id='__next']/div[1]/div/div/div/ul[1]/div[1]/div[2]/span
+Click on the clear button
+    Click element   xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[3]/button[2]/span[1]
 
 
 
-${LEVEL INPUT}      xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[10]/div/div/input
-${MAIN POSITION INPUT}      xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[11]/div/div/input
-${SECOND POSITION INPUT}        xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[12]/div/div/input
-${ACHIEVEMENTS INPUT}       xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[14]/div/div/input
-${LACZY NAD PILKA INPUT}        xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[16]/div/div/input
-${MINUT INPUT}      xpatx=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[17]/div/div/input
-${FACEBOOK INPUT}       xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[18]/div/div/input
+
+
+
+
 ${LEVEL INPUT}      xpath=//*[text()='Level']
 ${RIGHT LEG INPUT}      xpath=// *[ @ id = 'menu-leg'] / div[3] / ul / li[1]
 ${LEG INPUT}        xpath=//*[@id='mui-component-select-leg']
 ${LEFT LEG INPUT}       xpath=//*[@id='menu-leg']/div[3]/ul/li[2]
-${DISTRICT INPUT}     xpath=//*[@id='mui-component-select-district']
-${LOWER SILESIA INPUT}      xpath=//*[@id='menu-district']/div[3]/ul/li[1]
-${SUBMIT BUTTON}        xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[3]/button[1]/span[1]
-${CLEAR BUTTON}     xpath=//*[@id='__next']/div[1]/main/div[2]/form/div[3]/button[2]/span[1]
-${MAIN PAGE BUTTON}     xpath=//*[@id='__next']/div[1]/div/div/div/ul[1]/div[1]/div[2]/span
+
+
+
+
+
 
 
 
