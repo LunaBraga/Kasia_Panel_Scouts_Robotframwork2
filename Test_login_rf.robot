@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 Documentation       Suite description #automated tests for scout website
 
 *** Variables ***
-${LOGIN URL}        https://scouts-test.futbolkolektyw.pl/login
+${LOGIN URL}       https://scouts.futbolkolektyw.pl/en/
 
 ${BROWSER}      Chrome
 
@@ -153,7 +153,7 @@ Test report
 
 *** Keywords ***
 Open login page
-    Open Available Browser        ${LOGIN URL} ${BROWSER}
+    Open Browser        ${LOGIN URL} ${BROWSER}
     Title Should Be  Scouts panel - zaloguj
 Type in login
     Input Text      ${LOGIN INPUT} user07@getnada.com
